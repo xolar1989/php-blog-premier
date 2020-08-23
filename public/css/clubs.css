@@ -1,0 +1,32 @@
+main .logoClub {
+
+    display: block;
+
+    float: left;
+    margin: 15px;
+    ;
+    margin-left: 0;
+}
+
+main .logoClubMini {
+
+    display: none;
+}
+
+
+@media only screen and (max-width:460px) {
+
+    main .logoClub {
+
+        display: none;
+    }
+
+    main .logoClubMini {
+
+        display: block;
+        max-width: 100%;
+        margin: 15px auto;
+    }
+
+
+}

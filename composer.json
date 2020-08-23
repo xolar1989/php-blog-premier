@@ -1,0 +1,11 @@
+{
+    "name": "root/web",
+    "authors": [{
+        "name": "karol w",
+        "email": "xolar1989@o2.pl"
+    }],
+    "require": {
+        "mongodb/mongodb": "^1.1",
+        "ext-gd": "*"
+    }
+}
